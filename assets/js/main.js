@@ -6,7 +6,7 @@ var _impuesto = _interopRequireDefault(require("./impuesto.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var impuesto1 = new _impuesto["default"](100000, 150);
+var impuesto1 = new _impuesto["default"](500000, 150);
 var impuesto2 = new _impuesto["default"](200000, 250);
 var cliente1 = new _cliente["default"]("ClienteUno", impuesto1);
 var cliente2 = new _cliente["default"]("ClienteUno", impuesto2);
