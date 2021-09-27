@@ -15,7 +15,7 @@ class Cliente {
     }
 
     calcularImpuesto() {
-      porciento = 21 / 100;
+      const porciento = 21 / 100;
       return (
         (this._impuesto.monto_bruto_anual - this._impuesto.deducciones) * porciento
       );
