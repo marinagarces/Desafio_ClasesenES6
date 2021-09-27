@@ -1,6 +1,6 @@
 "use strict";
 
-require("babel-polyfill");
+/*require("babel-polyfill");*/
 
 var _cliente = _interopRequireDefault(require("./cliente.js"));
 
