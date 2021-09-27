@@ -4,7 +4,7 @@ import Impuesto from './impuesto.js';
 let impuesto1 = new Impuesto(19, 150);
 let impuesto2 = new Impuesto(19, 150);
 console.log(
-  `EL Monto Bruto Anual es: ${impuesto._monto_bruto_anual}, Las Deducciones son: ${impuesto._deducciones}`
+  `EL Monto Bruto Anual es: ${impuesto1._monto_bruto_anual}, Las Deducciones son: ${impuesto1._deducciones}`
 );
 
 let c1 = new Cliente("ClienteUno", impuesto1);
