@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
+  },
+  "scripts": {
+    "build": "babel ./assets/js-es6/ -d ./assets/js --watch"
+  }
+}
