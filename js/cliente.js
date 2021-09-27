@@ -1,24 +1,23 @@
-class Impuesto {
-    constructor(monto_bruto_anual, deducciones) {
-      this._monto_bruto_anual = monto_bruto_anual;
-      this._deducciones = deducciones;
+class Cliente {
+    constructor(nombre, impuesto) {
+      this._nombre = nombre;
+      this._impuesto = impuesto;
     }
 
-    get monto_bruto_anual() {
-      return this._monto_bruto_anual;
+    get nombre() {
+      return this._nombre;
     }
 
-    set monto_bruto_anual(nuevo_monto) {
-      this._monto_bruto_anual = nuevo_monto;
+    set nombre(nuevoNombre) {
+      this._nombre = nuevoNombre;
     }
 
-    get deducciones() {
-      return this._deducciones;
-    }
-
-    set deducciones(nuevas_deducciones) {
-      this._deducciones = nuevas_deducciones;
+    calcularImpuesto() {
+      return (
+        (this._impuesto.monto_bruto_anual - this._impuesto.deducciones) *
+        (21 / 100)
+      );
     }
 }
 
-  export default Impuesto;
+export default Cliente;
