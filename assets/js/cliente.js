@@ -1,15 +1,25 @@
-class Cliente {
+import Impuesto from './impuesto.js';
+
+
+class Cliente extends Impuesto {
+    constructor(nombre, impuesto) {
+        super(impuesto);
+        this._nombre = nombre;
+
+    }
+
+/*class Cliente {
     constructor(nombre, impuesto) {
       this._nombre = nombre;
       this._impuesto = impuesto;
-    }
+    }*/
 
     get nombre() {
       return this._nombre;
     }
 
-    set nombre(nuevoNombre) {
-      this._nombre = nuevoNombre;
+    set nombre(nombre) {
+      this._nombre = nombre;
     }
 
     calcularImpuesto() {
