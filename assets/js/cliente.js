@@ -15,9 +15,9 @@ class Cliente {
     }
 
     calcularImpuesto() {
+      porciento = 21 / 100;
       return (
-        (this._impuesto.monto_bruto_anual - this._impuesto.deducciones) *
-        (21 / 100)
+        (this._impuesto.monto_bruto_anual - this._impuesto.deducciones) * porciento
       );
     }
 }
