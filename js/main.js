@@ -1,5 +1,5 @@
-import Cliente from './cliente.js';
-import Impuesto from './impuesto.js';
+import Cliente from 'js\cliente.js';
+import Impuesto from 'js\impuesto.js';
 
 let impuesto = new Impuesto(1000, 200);
 console.log(
