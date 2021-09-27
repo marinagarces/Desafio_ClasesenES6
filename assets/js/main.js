@@ -1,11 +1,8 @@
 "use strict";
 
-import Cliente from './cliente.js';
-import Impuesto from './impuesto.js';
+var _cliente = _interopRequireDefault(require("./cliente.js"));
 
-/*var _cliente = _interopRequireDefault(require("./cliente.js"));
-
-var _impuesto = _interopRequireDefault(require("./impuesto.js"));*/
+var _impuesto = _interopRequireDefault(require("./impuesto.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
