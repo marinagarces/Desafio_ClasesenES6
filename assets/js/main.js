@@ -1,8 +1,8 @@
 import Cliente from './cliente.js';
 import Impuesto from './impuesto.js';
 
-let impuesto1 = new Impuesto(20, 100000);
-let impuesto2 = new Impuesto(20, 200000);
+let impuesto1 = new Impuesto(100000, 150);
+let impuesto2 = new Impuesto(200000, 250);
 console.log(`EL Monto Bruto Anual es: ${impuesto1._monto_bruto_anual}, Las Deducciones son: ${impuesto1._deducciones}`);
 console.log(`EL Monto Bruto Anual es: ${impuesto2._monto_bruto_anual}, Las Deducciones son: ${impuesto2._deducciones}`);
 let c1 = new Cliente("ClienteUno", impuesto1);

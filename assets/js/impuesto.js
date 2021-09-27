@@ -8,16 +8,16 @@ class Impuesto {
       return this._monto_bruto_anual;
     }
 
-    set monto_bruto_anual(nuevo_monto) {
-      this._monto_bruto_anual = nuevo_monto;
+    set monto_bruto_anual(monto_bruto_anual) {
+      this._monto_bruto_anual = monto_bruto_anual;
     }
 
     get deducciones() {
       return this._deducciones;
     }
 
-    set deducciones(nuevas_deducciones) {
-      this._deducciones = nuevas_deducciones;
+    set deducciones(deducciones) {
+      this._deducciones = deducciones;
     }
 }
 
